@@ -49,13 +49,3 @@ PUT /heroes/:id
 ```
 DELETE /heroes/:id
 ```
-
-## Benchmarking
-
-Run this command to benchmark request performance:
-
-```
-wrk -d1m http://localhost:8080/heroes
-```
-
-![benchmark](/img/benchmark.png)
